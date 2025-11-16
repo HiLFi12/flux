@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -43,6 +44,9 @@ public class PlayerMovement : MonoBehaviour
             _solidStrength = Mathf.Clamp(value, 0f, solidMaxStrength);
             if (!Mathf.Approximately(prev, _solidStrength))
                 OnSolidStrengthChanged?.Invoke(_solidStrength, solidMaxStrength);
+
+            if(_solidStrength <= 0f)
+                OnPlayerDied();
         }
     }
 
@@ -133,7 +137,7 @@ public class PlayerMovement : MonoBehaviour
         Move();
         JumpOrFlap();
         UpdateSolidScale();
-        BreakBlock();
+        BreakPlatform();
         CheckWall();
     }
 
@@ -206,7 +210,7 @@ public class PlayerMovement : MonoBehaviour
             ApplyVisualScale(new Vector2(liquidScale.x, targetY));
         }
 
-        // empujar bloques – ya no está duplicado
+    
         if (currentState == PlayerState.Solid && Mathf.Abs(moveInput) > 0.01f)
         {
             RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * Mathf.Sign(moveInput), 0.6f);
@@ -223,7 +227,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        // gas - clamp vertical
+
         if (currentState == PlayerState.Gas)
         {
             rb.linearVelocity = new Vector2(
@@ -281,20 +285,47 @@ public class PlayerMovement : MonoBehaviour
         lastAppliedScaleY = targetXY.y;
     }
 
-    void BreakBlock()
+        
+    private void BreakPlatform()
     {
-        if (currentState != PlayerState.Solid) return;
-        if (!Input.GetKeyDown(KeyCode.E)) return;
+        if (currentState != PlayerState.Solid || SolidStrength <= 0f) 
+            return;
 
-        Vector2 direction = transform.localScale.x >= 0 ? Vector2.right : Vector2.left;
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, breakDistance, breakableLayer);
+        Vector2 dir = Vector2.zero;
 
-        Debug.DrawRay(transform.position, direction * breakDistance, Color.red, 0.2f);
+        // DIRECCIONES PARA ROMPER
+        if (Input.GetKey(KeyCode.D)) dir = Vector2.right;
+        else if (Input.GetKey(KeyCode.A)) dir = Vector2.left;
+        else if (isGrounded) dir = Vector2.down;  
+        else return;
 
-        if (hit.collider != null)
+        if (!Input.GetKey(KeyCode.E)) return;
+
+        
+        Vector2 origin = (Vector2)transform.position + dir * 0.5f;
+
+       
+        RaycastHit2D hit = Physics2D.Raycast(origin, dir, 1f, breakableLayer);
+        //Debug.DrawRay(origin, dir * 1f, Color.red, 0.2f);
+
+        if (hit.collider == null) return;
+
+        
+        BreakablePlatform bp = hit.collider.GetComponent<BreakablePlatform>();
+        if (bp != null)
         {
+            bp.TriggerBreak();
             SolidStrength -= breakBlockCost;
-            hit.collider.GetComponent<BreakableBlock>()?.Break();
+            return;
+        }
+
+        
+        BreakableBlock bb = hit.collider.GetComponent<BreakableBlock>();
+        if (bb != null)
+        {
+            bb.TriggerBreak();
+            SolidStrength -= breakBlockCost;
+            return;
         }
     }
 
@@ -343,7 +374,11 @@ public class PlayerMovement : MonoBehaviour
         OnGasHealthChanged?.Invoke(gasCurrentHealth, gasMaxHealth);
     }
 
-    private void OnPlayerDied() => SetState(PlayerState.Solid);
+    private void OnPlayerDied() 
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+
+    }
 
     private void UpdateMovableCollision(bool enable)
     {

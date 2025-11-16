@@ -2,9 +2,8 @@ using UnityEngine;
 
 public class BreakableBlock : MonoBehaviour
 {
-    public void Break()
+    public void TriggerBreak()
     {
-        
         Destroy(gameObject);
     }
 }
