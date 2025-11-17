@@ -434,4 +434,21 @@ public class PlayerMovement : MonoBehaviour
     {
         SolidStrength = solidMaxStrength;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (currentState != PlayerState.Solid)
+            return;
+
+        BreakablePlatform bp = collision.collider.GetComponent<BreakablePlatform>();
+        if (bp != null)
+        {
+            bp.TriggerBreak();
+            //SolidStrength -= breakBlockCost;
+            return;
+        }
+
+   
+    }
+
 }
