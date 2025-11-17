@@ -2,38 +2,38 @@ using UnityEngine;
 
 public class GratePlatform : MonoBehaviour
 {
-    private Collider2D grateCol;
+    [Header("Pon aquí el collider sólido (el que bloquea)")]
+    public Collider2D solidCollider;  // NO trigger
 
-    void Awake()
+    private void Reset()
     {
-        grateCol = GetComponent<Collider2D>();
-        if (grateCol == null)
-            Debug.LogError("La rejilla necesita un Collider2D.");
+        // Autoasigna el primer collider como sólido
+        var cols = GetComponents<Collider2D>();
+        if (cols.Length > 0)
+            solidCollider = cols[0];
     }
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        PlayerMovement player = other.GetComponent<PlayerMovement>();
-        if (player == null || grateCol == null) return;
+        if (solidCollider == null) return;
 
-        // LIQUIDO → no colisiona
-        if (player.currentState == PlayerMovement.PlayerState.Liquid)
-        {
-            Physics2D.IgnoreCollision(other, grateCol, true);
-        }
-        else
-        {
-            Physics2D.IgnoreCollision(other, grateCol, false);
-        }
+        PlayerMovement player = other.GetComponent<PlayerMovement>();
+        if (player == null) return;
+
+        bool isLiquid = (player.currentState == PlayerMovement.PlayerState.Liquid);
+
+        // ← Solo esto determina si lo atraviesa
+        Physics2D.IgnoreCollision(other, solidCollider, isLiquid);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        // cuando sale, restablecer colisión
+        if (solidCollider == null) return;
+
         PlayerMovement player = other.GetComponent<PlayerMovement>();
-        if (player != null && grateCol != null)
+        if (player != null)
         {
-            Physics2D.IgnoreCollision(other, grateCol, false);
+            Physics2D.IgnoreCollision(other, solidCollider, false);
         }
     }
 }

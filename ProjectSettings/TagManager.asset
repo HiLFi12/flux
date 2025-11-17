@@ -19,10 +19,10 @@ TagManager:
   - BreakableLayer
   - Grate
   - 
+  - PlayerSolid
+  - PlayerNonSolid
   - 
-  - 
-  - 
-  - 
+  - PickableBlock
   - 
   - 
   - 

@@ -296,8 +296,8 @@ public class PlayerMovement : MonoBehaviour
         // DIRECCIONES PARA ROMPER
         if (Input.GetKey(KeyCode.D)) dir = Vector2.right;
         else if (Input.GetKey(KeyCode.A)) dir = Vector2.left;
-        else if (isGrounded) dir = Vector2.down;  
-        else return;
+        else dir = Vector2.down;  
+        
 
         if (!Input.GetKey(KeyCode.E)) return;
 
@@ -306,7 +306,7 @@ public class PlayerMovement : MonoBehaviour
 
        
         RaycastHit2D hit = Physics2D.Raycast(origin, dir, 1f, breakableLayer);
-        //Debug.DrawRay(origin, dir * 1f, Color.red, 0.2f);
+        Debug.DrawRay(origin, dir * 1f, Color.red, 0.2f);
 
         if (hit.collider == null) return;
 
@@ -332,6 +332,9 @@ public class PlayerMovement : MonoBehaviour
     public void SetState(PlayerState newState)
     {
         currentState = newState;
+
+       
+
         switch (currentState)
         {
             case PlayerState.Solid:
