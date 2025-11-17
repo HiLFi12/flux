@@ -1,0 +1,3018 @@
+fileFormatVersion: 2
+guid: 52a1ed936a63436469541158e2c37e95
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6955879651120603507
+    second: tuberiav2_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tuberiav2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1012
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e9696af40c77f90800000000000000
+      internalID: -6955879651120603507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1012
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70694074d20fff5438501c0314de9cd3
+      internalID: 333141272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1012
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f60e9bfe3772e945bcdfba7f8e5aa06
+      internalID: 1197564653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1012
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c481286add3bc439c5018e6a57f00a
+      internalID: 449488843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1012
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a271e278d400248ad97fc7d1f118ee
+      internalID: 1852658213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1012
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c6b610f4b97bc41bb855bcc76cec56
+      internalID: 1688370020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1012
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbda4b78aa0c084aa54607c592a218e
+      internalID: -992262536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1012
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478e71ae915c3ec4896b8805613b00f3
+      internalID: -126070693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1012
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a57fb56a2f51047bd66d0b93d9550f
+      internalID: -680607491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1012
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0611aee84371633488eb76bfa15464b6
+      internalID: -143238970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1012
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0926af9c1b0cd554d814deeff19b9869
+      internalID: -1422733825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_11
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1012
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8449544eb2093c42bb5d3ccad8c052d
+      internalID: -1746918347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_12
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1012
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba0afa95c3c43348ba21a4da58a2200
+      internalID: 1998468073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_13
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1012
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a9097874ffabd4ebb0f0b0c1e71503
+      internalID: -1942727381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 892
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa19e17064f6b2444a6eb45b9736e6a1
+      internalID: 184224521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 892
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1255c07bdd963074b853af40d0107f10
+      internalID: 92850418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 892
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d67d89bc9b8afc4281d44585a2614d6
+      internalID: 1547308734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 892
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3031b0fdc747a0f4986c925c3832b5cc
+      internalID: 1610879389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_18
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 892
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0058135ec7aea8249b6ba5cb403c6388
+      internalID: -1248771083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 892
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f946c4660c867bc44adc05d4cc55c0ab
+      internalID: 367443387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_20
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 892
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c8ffac768f7034e8964748924e16ae
+      internalID: -1646512405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_21
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 892
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a5821d87f887a409cf59bc96ebe110
+      internalID: -1412228754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_22
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 892
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973a949597d8a824faee7d865d8ac655
+      internalID: -1528929806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_23
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 892
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8919bb8ef0de52f43b4dab60ff508b59
+      internalID: -1825945625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_24
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 892
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc11b6eac72dfb448c4a65456a675dd
+      internalID: -1450837719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_25
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 892
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21f24e3b364b6541b63f6e510808cd2
+      internalID: 720376675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_26
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 892
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c5f17cde9cb9f479ccb7ea2b50f95c
+      internalID: -820069485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_27
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 892
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b885a1ba3625d34484759be19ad9e46
+      internalID: -1985915746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 772
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13545605b8074ea44af9608c37dbb79e
+      internalID: -861111839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_29
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 772
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8748a49b505208d4ead4a44517f754ec
+      internalID: -1696056422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 772
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d2c3546abcebb459c5fb5a79ff4f3f
+      internalID: 29069439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_31
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 772
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5f2bdc5184402459817d7089219cb9
+      internalID: 1526883172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_32
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 772
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9192502f1ef63b46ad9f8d5dc9369b0
+      internalID: 2100500976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 772
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3dd17e801aaac479952aedac709b3a
+      internalID: -1858965420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_34
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 772
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2dae33f1f1e2646a9d82d8bf25422d
+      internalID: 325646170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_35
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 772
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e627d3921b8d48548bbb93b86fc31557
+      internalID: -1474352751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_36
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 772
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37358a5638ffeb441a85393d40e21682
+      internalID: 381906085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_37
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 772
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a41118bef50398498369e7ed3d44a48
+      internalID: -907798812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_38
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 772
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dc3532cee86234ca0521e5c326d18a
+      internalID: -17482892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_39
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 772
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fd22d20fdb39b4fa41952843bb25a0
+      internalID: 1607631812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_40
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 772
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8594671fd6ee9c94d986ffeaf7009112
+      internalID: -1633925661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_41
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 772
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d8b09557b09054997967301b35c180
+      internalID: 1630874551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 652
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e626b99c0bfcd9a41abe3e8168f8bb46
+      internalID: 422042373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_43
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 652
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452c1072df78e9743808129803298dd9
+      internalID: -712202978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_44
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 652
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e740fa63d72f9a144b6f22fe0c417685
+      internalID: 1563034927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_45
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 652
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f3dd26dee46e949afe40e04c539166
+      internalID: -1913773510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_46
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 652
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959e87fd9d60c9847a83ea94c09a49fe
+      internalID: 1013446787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_47
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 652
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2530ad7b8ce614594c515fe5d64aed
+      internalID: -530957571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_48
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 652
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7373bb37254b5bf4fb51692166f9a4f0
+      internalID: -344002732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_49
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 652
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68420247a67c5b549bc0459d440b1634
+      internalID: 378357197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_50
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 652
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070964d7f11586a4584c63a71f24bf9b
+      internalID: 1882318175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_51
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 652
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766ae25a6b5c16147ba6a67ac960c0f9
+      internalID: 1531925914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_52
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 652
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d440c2a1f68c2704999739c68741b917
+      internalID: -2136492525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_53
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 652
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365b137580aac9646adf7e2c610bb262
+      internalID: -1255871305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_54
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 652
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3037e8439a078240ae30fb0ca569b6b
+      internalID: 1018308352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_55
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 652
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f357c7fe9636dff40b6c243e6cfde945
+      internalID: 270086140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72172b559a2a73e44a597f1e8cd07f13
+      internalID: 2055167870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_57
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 532
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02422d800741784dabf233ee1012c9a
+      internalID: 1241442568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_58
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 532
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b53ad88f4358d4a988adaa23320037
+      internalID: 1430384193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_59
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 532
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607fcc3b7211dcb46bafe0e0c7d09cec
+      internalID: -214117381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_60
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 532
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0ad93a69fde6b4095ced4c16d232e3
+      internalID: -92260456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_61
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 532
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ffe850f19d5064aa6bce3d9ce44a90
+      internalID: -597355801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_62
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 532
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18102219664bb147b418377cd7c06a2
+      internalID: -1917409036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_63
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 532
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a66c17cb04c7284cb3dc76465a69d07
+      internalID: 890581237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_64
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 532
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fe42f0b83b1e3468452ca255a8e6cc
+      internalID: -2012126134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_65
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 532
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5b2e452fd6e864b93b72859a488c16
+      internalID: -4551716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_66
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 532
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43c035ed03ee9344ab29f104d5ce443
+      internalID: -884515138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_67
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 532
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0c197992a23e7498ad7fff45778d68
+      internalID: 1704827770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_68
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 532
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fe1e989d64ae04d9cece09e097c95d
+      internalID: 1384747503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_69
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 532
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65d831357b48e54484c6415c5ce2653
+      internalID: 246588283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1812e1f76417a745a9178a82cd012be
+      internalID: -1668250363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_71
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 412
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986c19b954aaf3546800cd977eb0838e
+      internalID: -107557735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_72
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 412
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401382ff91a942343884fe7063e333d7
+      internalID: 1506046708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_73
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 412
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa43a026a1764442b395d1ba364404e
+      internalID: 288714245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_74
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 412
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5677592be8fc9b444aecc7b23e87ec7e
+      internalID: 1433521400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_75
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 412
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d0059599ada084397c504e66aed329
+      internalID: 1600863114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_76
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 412
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45907d7687b58a143b9a722733d37af0
+      internalID: 1954456832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_77
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 412
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befa11d2507fa2843a003f2d0fcba25c
+      internalID: -1511732291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_78
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 412
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397237b281aba3842b5b131733bbe359
+      internalID: -884798866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_79
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 412
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c6a76d6722b204d98eabf4758eb130
+      internalID: -783244589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_80
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 412
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107ef9a4e375feb4f93b8565f34b42fa
+      internalID: 1236296535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_81
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 412
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4b7576f95840541b533098c87f031a
+      internalID: -241770075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_82
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 412
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26da43fd1e7d8f743928eee39a18f824
+      internalID: 75199093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_83
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 412
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae2872c9dfa3414eac73c33ea98c16c
+      internalID: -992275484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5ff68d7281b5c4a9e8d75921016479
+      internalID: 123527686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_85
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 292
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800ef9c5a3aa68f4e95977732983f4c4
+      internalID: 1804433334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_86
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 292
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc355db3e6ea57e44bf4892454077f27
+      internalID: -128424605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_87
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 292
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64266568b61085a43be145a776289c9c
+      internalID: -2104598515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_88
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 292
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eef102e0c8ed844fba5195fd37ff886
+      internalID: 1159018691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_89
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 292
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331fbf9dbe4c2f64395d6bc21d7c79b8
+      internalID: 1304728962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_90
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 292
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439e0ac3a92408c4cab7772f9b915507
+      internalID: -204656709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_91
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 292
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9782c893088b80c46a6c845168f7ddd8
+      internalID: 693904669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_92
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 292
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb1c348aaf4cea4990aa526c6f140e4
+      internalID: -828331512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_93
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 292
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e5c2a5512a5de4788059398feba45d
+      internalID: 399908054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_94
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 292
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8852e2905a825469604bb02b1e8e15
+      internalID: -33648615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_95
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 292
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2767f24f92b407041b712e1bda6fb11a
+      internalID: -769241453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_96
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 292
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3a78ee8cf10fe40b7282de8fcaf67a
+      internalID: -807412916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_97
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 292
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d06d7d8d83ca841b1932a9c4db6bc7
+      internalID: -1257245301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d9316642a2f3d4697489af170c02a6
+      internalID: 928851246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_99
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 172
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d73683992a5ad9429f0050ccb87e90e
+      internalID: 368886164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_100
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 172
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53759897ea934324b85cfb1452fe3ff2
+      internalID: 1798383389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_101
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 172
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7690da9a7942234bb4f749529e221c0
+      internalID: 423442784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_102
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 172
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e33f8c90b09a6d409564fb54aa55f4d
+      internalID: 153103065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_103
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 172
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce50bb347ab43944aa2e344de17c3ac
+      internalID: -1412958706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_104
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 172
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9cc6780f8346d40876623c348bdb75
+      internalID: 2087966815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_105
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 172
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24365da2aaa9c464781e967e5906df61
+      internalID: -153566882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_106
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 172
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbeb6738b63a618449cfecadc5b359fa
+      internalID: 2022833818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_107
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 172
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ee3b6f7c4fe8145be333aa764d297d
+      internalID: 1113726551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_108
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 172
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76630817b952d3247a16810d6dd133ef
+      internalID: -1596322035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_109
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 172
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92123d9b1533f745b8ba4d2a2060980
+      internalID: -298986071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_110
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 172
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8c901effb0c6e4abf85660cfa8ae35
+      internalID: -1890661760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_111
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 172
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4da89402d742894fbe07e4439705d4a
+      internalID: -241727056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dc4d64580467b4fb442c23d6775aac
+      internalID: 720847087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_113
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 52
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25143958bf935354aa8afbd65ce288d8
+      internalID: -346408434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_114
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 52
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c4ede5e43980d45858d6fba01d6379
+      internalID: 472303965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_115
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 52
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebee85aefa108744080e69c72f6580b1
+      internalID: 1815811459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_116
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 52
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98d5a3ef4882934199efc8b59d86164
+      internalID: 867029622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_117
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 52
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c799bcb7d8716fc47bcce858db122d15
+      internalID: -81909489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_118
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 52
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f309bfa29d461ca44abcd0dbc92b4366
+      internalID: 117828498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_119
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 52
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d1c36bc85fef64e9054de84f3fa496
+      internalID: -1437445205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_120
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 52
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824e11083ea4985479afd1152bf0ba79
+      internalID: -1273902806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_121
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 52
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a926e7fa207c92147bb071045da96992
+      internalID: -1978201938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_122
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 52
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658b0bb648ba09d4e879f408c0238c5c
+      internalID: 290701024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_123
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 52
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43dcdf036ada7464e9345319ad8d428e
+      internalID: 2001999982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_124
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 52
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e321b95e193036f48ab3e85da4558fa5
+      internalID: 75685325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuberiav2_125
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 52
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3e921fd72c74b44ae195c0aa45b801
+      internalID: 1522024670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c67ee3025be67e147917397513b8af04
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tuberiav2_0: -6955879651120603507
+      tuberiav2_1: 333141272
+      tuberiav2_10: -1422733825
+      tuberiav2_100: 1798383389
+      tuberiav2_101: 423442784
+      tuberiav2_102: 153103065
+      tuberiav2_103: -1412958706
+      tuberiav2_104: 2087966815
+      tuberiav2_105: -153566882
+      tuberiav2_106: 2022833818
+      tuberiav2_107: 1113726551
+      tuberiav2_108: -1596322035
+      tuberiav2_109: -298986071
+      tuberiav2_11: -1746918347
+      tuberiav2_110: -1890661760
+      tuberiav2_111: -241727056
+      tuberiav2_112: 720847087
+      tuberiav2_113: -346408434
+      tuberiav2_114: 472303965
+      tuberiav2_115: 1815811459
+      tuberiav2_116: 867029622
+      tuberiav2_117: -81909489
+      tuberiav2_118: 117828498
+      tuberiav2_119: -1437445205
+      tuberiav2_12: 1998468073
+      tuberiav2_120: -1273902806
+      tuberiav2_121: -1978201938
+      tuberiav2_122: 290701024
+      tuberiav2_123: 2001999982
+      tuberiav2_124: 75685325
+      tuberiav2_125: 1522024670
+      tuberiav2_13: -1942727381
+      tuberiav2_14: 184224521
+      tuberiav2_15: 92850418
+      tuberiav2_16: 1547308734
+      tuberiav2_17: 1610879389
+      tuberiav2_18: -1248771083
+      tuberiav2_19: 367443387
+      tuberiav2_2: 1197564653
+      tuberiav2_20: -1646512405
+      tuberiav2_21: -1412228754
+      tuberiav2_22: -1528929806
+      tuberiav2_23: -1825945625
+      tuberiav2_24: -1450837719
+      tuberiav2_25: 720376675
+      tuberiav2_26: -820069485
+      tuberiav2_27: -1985915746
+      tuberiav2_28: -861111839
+      tuberiav2_29: -1696056422
+      tuberiav2_3: 449488843
+      tuberiav2_30: 29069439
+      tuberiav2_31: 1526883172
+      tuberiav2_32: 2100500976
+      tuberiav2_33: -1858965420
+      tuberiav2_34: 325646170
+      tuberiav2_35: -1474352751
+      tuberiav2_36: 381906085
+      tuberiav2_37: -907798812
+      tuberiav2_38: -17482892
+      tuberiav2_39: 1607631812
+      tuberiav2_4: 1852658213
+      tuberiav2_40: -1633925661
+      tuberiav2_41: 1630874551
+      tuberiav2_42: 422042373
+      tuberiav2_43: -712202978
+      tuberiav2_44: 1563034927
+      tuberiav2_45: -1913773510
+      tuberiav2_46: 1013446787
+      tuberiav2_47: -530957571
+      tuberiav2_48: -344002732
+      tuberiav2_49: 378357197
+      tuberiav2_5: 1688370020
+      tuberiav2_50: 1882318175
+      tuberiav2_51: 1531925914
+      tuberiav2_52: -2136492525
+      tuberiav2_53: -1255871305
+      tuberiav2_54: 1018308352
+      tuberiav2_55: 270086140
+      tuberiav2_56: 2055167870
+      tuberiav2_57: 1241442568
+      tuberiav2_58: 1430384193
+      tuberiav2_59: -214117381
+      tuberiav2_6: -992262536
+      tuberiav2_60: -92260456
+      tuberiav2_61: -597355801
+      tuberiav2_62: -1917409036
+      tuberiav2_63: 890581237
+      tuberiav2_64: -2012126134
+      tuberiav2_65: -4551716
+      tuberiav2_66: -884515138
+      tuberiav2_67: 1704827770
+      tuberiav2_68: 1384747503
+      tuberiav2_69: 246588283
+      tuberiav2_7: -126070693
+      tuberiav2_70: -1668250363
+      tuberiav2_71: -107557735
+      tuberiav2_72: 1506046708
+      tuberiav2_73: 288714245
+      tuberiav2_74: 1433521400
+      tuberiav2_75: 1600863114
+      tuberiav2_76: 1954456832
+      tuberiav2_77: -1511732291
+      tuberiav2_78: -884798866
+      tuberiav2_79: -783244589
+      tuberiav2_8: -680607491
+      tuberiav2_80: 1236296535
+      tuberiav2_81: -241770075
+      tuberiav2_82: 75199093
+      tuberiav2_83: -992275484
+      tuberiav2_84: 123527686
+      tuberiav2_85: 1804433334
+      tuberiav2_86: -128424605
+      tuberiav2_87: -2104598515
+      tuberiav2_88: 1159018691
+      tuberiav2_89: 1304728962
+      tuberiav2_9: -143238970
+      tuberiav2_90: -204656709
+      tuberiav2_91: 693904669
+      tuberiav2_92: -828331512
+      tuberiav2_93: 399908054
+      tuberiav2_94: -33648615
+      tuberiav2_95: -769241453
+      tuberiav2_96: -807412916
+      tuberiav2_97: -1257245301
+      tuberiav2_98: 928851246
+      tuberiav2_99: 368886164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

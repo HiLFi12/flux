@@ -93,6 +93,9 @@ public class PlayerMovement : MonoBehaviour
     public event Action<float, float> OnSolidStrengthChanged;
 
 
+
+
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -342,6 +345,7 @@ public class PlayerMovement : MonoBehaviour
                 rb.gravityScale = solidGravity;
                 rb.linearDamping = 0f;
                 SetVisualColor(Color.gray);
+                //UpdateVisualSprite();
                 ApplyVisualScale(solidScale);
                 UpdateMovableCollision(true);
                 break;
@@ -351,6 +355,7 @@ public class PlayerMovement : MonoBehaviour
                 rb.gravityScale = liquidGravity;
                 rb.linearDamping = liquidDrag;
                 SetVisualColor(Color.cyan);
+                //UpdateVisualSprite();
                 UpdateMovableCollision(false);
                 break;
 
@@ -359,6 +364,7 @@ public class PlayerMovement : MonoBehaviour
                 rb.gravityScale = gasGravity;
                 rb.linearDamping = 0f;
                 SetVisualColor(Color.white);
+                //UpdateVisualSprite();
                 UpdateMovableCollision(true);
                 break;
         }
@@ -434,4 +440,23 @@ public class PlayerMovement : MonoBehaviour
     {
         SolidStrength = solidMaxStrength;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (currentState != PlayerState.Solid)
+            return;
+
+        BreakablePlatform bp = collision.collider.GetComponent<BreakablePlatform>();
+        if (bp != null)
+        {
+            bp.TriggerBreak();
+            //SolidStrength -= breakBlockCost;
+            return;
+        }
+
+    }
+
+
+
+
 }
