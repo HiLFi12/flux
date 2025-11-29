@@ -92,6 +92,10 @@ public class PlayerMovement : MonoBehaviour
     public event Action<float, float> OnGasHealthChanged;
     public event Action<float, float> OnSolidStrengthChanged;
 
+    [Header("Physics Settings")]
+    public bool enableContinuousCollision = true;
+    public bool neverSleep = true;
+
 
 
 
@@ -99,6 +103,13 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        if (enableContinuousCollision)
+        {
+            rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+            rb.interpolation = RigidbodyInterpolation2D.Interpolate;
+        }
+        if (neverSleep)
+            rb.sleepMode = RigidbodySleepMode2D.NeverSleep;
         SolidStrength = Mathf.Clamp(_solidStrength, 0f, solidMaxStrength);
         wasGrounded = true;
         fallStartY = transform.position.y;
