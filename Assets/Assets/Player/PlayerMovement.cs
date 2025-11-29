@@ -84,8 +84,14 @@ public class PlayerMovement : MonoBehaviour
     private Collider2D[] playerColliders;
     [SerializeField] private SpriteRenderer visualSprite;
     [SerializeField] private Transform visualRoot;
+    private VisualSpriteKeeper visualKeeper;
     private float lastAppliedScaleY = -1f;
     [SerializeField] private float scaleEpsilon = 0.002f;
+
+    [Header("State Sprites")]
+    [SerializeField] private Sprite solidSprite;
+    [SerializeField] private Sprite liquidSprite;
+    [SerializeField] private Sprite gasSprite;
 
     public event Action<PlayerState> OnStateChanged;
     public event Action<float, float> OnLiquidHealthChanged;
@@ -139,6 +145,15 @@ public class PlayerMovement : MonoBehaviour
         playerColliders = GetComponents<Collider2D>();
         if (visualRoot == null && visualSprite != null)
             visualRoot = visualSprite.transform;
+
+        // Initialize VisualSpriteKeeper so sprite swaps preserve visual world size
+        if (visualSprite != null)
+        {
+            visualKeeper = visualSprite.GetComponent<VisualSpriteKeeper>();
+            if (visualKeeper == null)
+                visualKeeper = visualSprite.gameObject.AddComponent<VisualSpriteKeeper>();
+            visualKeeper.Initialize(visualSprite);
+        }
 
         SetState(PlayerState.Solid);
         UpdateSolidScale();
@@ -347,8 +362,6 @@ public class PlayerMovement : MonoBehaviour
     {
         currentState = newState;
 
-       
-
         switch (currentState)
         {
             case PlayerState.Solid:
@@ -356,7 +369,8 @@ public class PlayerMovement : MonoBehaviour
                 rb.gravityScale = solidGravity;
                 rb.linearDamping = 0f;
                 SetVisualColor(Color.gray);
-                //UpdateVisualSprite();
+                if (solidSprite != null)
+                    SetVisualSprite(solidSprite);
                 ApplyVisualScale(solidScale);
                 UpdateMovableCollision(true);
                 break;
@@ -366,7 +380,8 @@ public class PlayerMovement : MonoBehaviour
                 rb.gravityScale = liquidGravity;
                 rb.linearDamping = liquidDrag;
                 SetVisualColor(Color.cyan);
-                //UpdateVisualSprite();
+                if (liquidSprite != null)
+                    SetVisualSprite(liquidSprite);
                 UpdateMovableCollision(false);
                 break;
 
@@ -375,7 +390,8 @@ public class PlayerMovement : MonoBehaviour
                 rb.gravityScale = gasGravity;
                 rb.linearDamping = 0f;
                 SetVisualColor(Color.white);
-                //UpdateVisualSprite();
+                if (gasSprite != null)
+                    SetVisualSprite(gasSprite);
                 UpdateMovableCollision(true);
                 break;
         }
@@ -392,6 +408,41 @@ public class PlayerMovement : MonoBehaviour
     {
         gasCurrentHealth = gasMaxHealth;
         OnGasHealthChanged?.Invoke(gasCurrentHealth, gasMaxHealth);
+    }
+
+    // Safely swap the visual sprite while keeping the visual world-size consistent.
+    // Prefer calling this instead of assigning visualSprite.sprite directly.
+    public void SetVisualSprite(Sprite newSprite)
+    {
+        if (visualKeeper != null)
+        {
+            visualKeeper.SetSprite(newSprite);
+            return;
+        }
+
+        // Fallback: naive compensation using current/old sprite bounds
+        if (visualSprite == null)
+        {
+            return;
+        }
+
+        var old = visualSprite.sprite;
+        if (old == null)
+        {
+            visualSprite.sprite = newSprite;
+            return;
+        }
+
+        Vector2 oldSize = old.bounds.size;
+        Vector2 newSize = newSprite != null ? newSprite.bounds.size : Vector2.one;
+        if (newSize.x > 0f && newSize.y > 0f && oldSize.x > 0f && oldSize.y > 0f)
+        {
+            var s = visualSprite.transform.localScale;
+            s.x = s.x * (oldSize.x / newSize.x);
+            s.y = s.y * (oldSize.y / newSize.y);
+            visualSprite.transform.localScale = s;
+        }
+        visualSprite.sprite = newSprite;
     }
 
     private void OnPlayerDied() 
