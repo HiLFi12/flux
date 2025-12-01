@@ -112,7 +112,7 @@ Transform:
   m_GameObject: {fileID: 4557901411651896040}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.08, z: 0}
+  m_LocalPosition: {x: 0, y: -0.0741, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -153,6 +153,7 @@ Transform:
   m_Children:
   - {fileID: 5216686692706668291}
   - {fileID: 7327472835575373309}
+  - {fileID: 1126991390211975564}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7916223905505799620
@@ -235,7 +236,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &355533457391913055
 BoxCollider2D:
@@ -271,7 +272,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.00027096272, y: -0.00014658272}
+  m_Offset: {x: -0.0035381317, y: -0.0011024959}
   m_SpriteTilingProperty:
     border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
     pivot: {x: 0.5, y: 0.5}
@@ -281,7 +282,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.1507883, y: 0.1480416}
+  m_Size: {x: 0.14868546, y: 0.14198878}
   m_EdgeRadius: 0
 --- !u!114 &6106835459672736214
 MonoBehaviour:
@@ -296,14 +297,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  solidMoveSpeed: 3
+  solidMoveSpeed: 5
   solidJumpForce: 12
   solidGravity: 3
   solidScale: {x: 4, y: 6}
   solidMaxStrength: 100
-  solidStrength: 100
+  _solidStrength: 100
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  wallCheckDistance: 0.6
+  breakBlockCost: 20
+  breakDistance: 1
+  breakableLayer:
+    serializedVersion: 2
+    m_Bits: 768
   fallDamageMultiplier: 5
-  solidJumpStrengthLoss: 5
+  solidJumpStrengthLoss: 3
   solidMinScaleY: 3
   liquidMoveSpeed: 8
   liquidGravity: 2
@@ -330,3 +340,39 @@ MonoBehaviour:
   visualSprite: {fileID: 7004690958270127054}
   visualRoot: {fileID: 2836195762440897728}
   scaleEpsilon: 0.002
+  solidSprite: {fileID: 21300000, guid: 5505d98761f301747986de6407d18b42, type: 3}
+  liquidSprite: {fileID: 21300000, guid: a421403b85645484791ee1dea17daae2, type: 3}
+  gasSprite: {fileID: 21300000, guid: 9a620d3876ed4e442acc024528544f7f, type: 3}
+  enableContinuousCollision: 1
+  neverSleep: 1
+--- !u!1 &8719077182158120955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1126991390211975564}
+  m_Layer: 3
+  m_Name: HoldPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1126991390211975564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8719077182158120955}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.08, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2836195762440897728}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

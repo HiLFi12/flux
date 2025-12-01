@@ -27394,7 +27394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f444f564b18cc3f418835c64746dc260, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winSceneName: WinScreen
+  winSceneName: WinScreenLvl2
 --- !u!58 &1174044478
 CircleCollider2D:
   m_ObjectHideFlags: 0
